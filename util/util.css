@@ -5,7 +5,7 @@ html,body{
 #loading_page{
     width:100%;
     height:100%;
-    position: absolute;
+    position: fixed;
     z-index: 99999;
     top:0;
     left:0;
@@ -135,7 +135,7 @@ html,body{
     left: 10%;
     text-align: center;
     box-sizing: border-box;
-    padding: 30px 0;
+    padding: 30px 15px;
     z-index: 999;
     background-color: rgba(0,0,0,.6);
     border-radius: 5px;
